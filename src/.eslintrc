@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": ["react-app", "eslint:recommended"],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": 1,
+        "quotes": ["error", "single"],
+        "semi": ["error", "never"],
+        "no-console": "off",
+        "no-unused-vars": 1
+    }
+}

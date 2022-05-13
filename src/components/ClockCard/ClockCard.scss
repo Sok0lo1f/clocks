@@ -1,0 +1,19 @@
+.clock-card {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    &__clock {
+        margin-bottom: 15px;
+    }
+    &__digit-time {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    &__select {
+        width: 80%;
+    }
+}
